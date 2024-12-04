@@ -3,7 +3,7 @@
 
 <a href="https://www.behance.net/dhirukumar" target="_blank">Behance Profile </a>
 
-##Zenith Yoga Studio | Social Media Campaign Landing Page, Zenith Yoga Studio  Campaign Sign Up NoW and get 10% DISCOUNT on your FRIST Order.
+##Zenith Yoga Studio | Social Media Campaign Landing Page, Zenith Yoga Studio  Campaign Sign Up Now and get 10% DISCOUNT on your FRIST Order.
 
 ### HERO BANNER CALL TO ACTION
 -- hero banner button link to New Zenith Yoga Stories Campaign Landing Page --
