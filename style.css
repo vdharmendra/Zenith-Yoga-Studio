@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: "Dancing Script", cursive;
+}
+/* BANNER CSS */
+.banner{
+    height: 100vh;
+    position: relative;
+}
+.slider{
+    width: 93%;
+    float: left;
+}
+.carousel-item{
+    height: 100vh;
+}
+.carousel-caption{
+    max-height: 350px !important;
+    max-width: 500px !important;
+    text-align: right !important;
+    right: 60px !important;
+    left: auto !important;
+    top: 160px !important;
+}
+.carousel-caption h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+.carousel-caption p{
+    margin-top: 60px;
+    font-family: sans-serif;
+    font-size: 18px;
+
+}
+
+/* SIDE SECTION */
+.side-menu{
+    height: 100%;
+    width: 7%;
+    float: right;
+    background-color: #526496;
+    position: relative;
+    z-index: 2;
+    padding-top: 30px;
+}
+.menu-icon,
+.search-icon{
+    width: 30px;
+    margin: 30px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 900;
+}
+.side-menu::after{
+    content: '';
+    width: 1px;
+    height: 130px;
+    background-color: #fff;
+    left: 45px;
+    top: 200px;
+    position: absolute;
+}
+.carousel-indicators{
+    left: 85% !important;
+    height: 40% !important;
+    width: 70px !important;
+    top: 55% !important;
+    display: block !important;
+    color: #fff;
+    z-index: 99;
+}
+.carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    margin-left: 40px !important;
+    margin-right: 15px !important;
+    background: transparent !important;
+    border: 2px solid #fff !important;
+}
+.share{
+    margin-top: 60px;
+    margin-left: 15px;
+}
+.share .bi{
+    font-size: 16px;
+    /* margin-right: 12px; */
+    cursor: pointer;
+}
+/* NAVIGATION SECTION */
+.top-bar{
+    position: absolute;
+    margin: 30px 50px;
+    z-index: 2;
+}
+.top-bar img{
+    height: 30px;
+    cursor: pointer;
+}
+.top-bar ul{
+    display: inline-flex;
+}
+.top-bar ul li{
+    list-style: none;
+    margin: 15px 20px;
+}
+
+.top-bar ul li a{
+    color: #fff;
+    /* font-family: sans-serif; */
+    display: block;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+/* SOCIAL LINK */
+.social-icons{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    z-index: 2;
+}
+.social-icons ul li{
+    list-style: none;
+    margin: 10px 0;
+    font-size: 16px;
+}
+.social-icons ul li a{
+    color: #fff;
+}
