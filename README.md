@@ -34,7 +34,7 @@
 <br />
 <span>UI-UX layout Design</span><br/>
 <a href="https://www.behance.net/gallery/214023845/Zenith-Yoga-Studio-Social-Media-Campaign-Landing-Page" target="_blank" >
-<img src="./img/landing-page.gif" width="575px"/>
+<img src="./img/ui-ux-layout.gif" width="575px"/>
 </a>
 <br />
 <span>Cover</span><br/>
