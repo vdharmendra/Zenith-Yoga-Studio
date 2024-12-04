@@ -7,6 +7,7 @@
 body{
     font-family: "Dancing Script", cursive;
 }
+
 /* BANNER CSS */
 .banner{
     height: 100vh;
@@ -39,6 +40,7 @@ body{
 }
 
 /* SIDE SECTION */
+
 .side-menu{
     height: 100%;
     width: 7%;
@@ -66,6 +68,7 @@ body{
     top: 200px;
     position: absolute;
 }
+
 .carousel-indicators{
     left: 85% !important;
     height: 40% !important;
@@ -133,4 +136,16 @@ body{
 }
 .social-icons ul li a{
     color: #fff;
+}
+/* ANIMATION EFFECT */
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup {
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
